@@ -1,82 +1,71 @@
-body  {
-    margin: 0;
-    padding: 0;
-    background-image: url("../images/background.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
+body {
+    margin: 0 auto;
+    background: url("../images/background.jpg"), no-repeat, center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: Arial, Helvatica, 'Gill Sans' sans-serif;
-  }
+}
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
+.logo {
+    width: 200px;
+    height: 200px;
 }
-.topnav ul {
-  list-style: none;
-  background: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding: 0;
-  margin: 15px;
+
+.topnav {
+    list-style: none;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1026px;
+    height: 7vh;
 }
+
 .topnav li {
-  font-family: Arial, Helvatica, 'Gill Sans' sans-serif;
-  font-size: 1.3em;
-  line-height: 40px;
-  height: 40px;
-  padding: 10px;
+    font-size: 1.3em;
+    margin-left: 16px;
 }
- 
+
 .topnav a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  transition: .3s background-color;
+    text-decoration: none;
+    color: #fff;
 }
 
-.topnav li {
-  display: inline-block;
-  list-style-type: none;
+.header {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
 }
 
-.main-content{
-  font-family: Arial, Helvatica, 'Gill Sans' sans-serif;
-  font-size: 100px;
-  text-align: center;
-  margin: 30px;
-  color: white;
-  font-weight: 800;
+.secondary-content {
+    width: 530px;
+    font-size: 17px;
+    text-align: center;
+    color: white;
 }
 
-.secondary-content a{
-  text-transform: capitalize;
+.last-content {
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
 }
 
-.secondary-content{
-  font-family: Arial, Helvatica, 'Gill Sans' sans-serif;
-  font-size: 20px;
-  text-align: center;
-  color: white;
+.upper {
+    text-transform: uppercase;
+    font-weight: 800;
 }
 
-.upper{
-  text-transform: uppercase;
-  font-weight: 800;
-}
-
-.last-content{
-  color: white;
-  font-size: 15px;
-  font-weight: 800;
-}
-
-.maps{
-  align-items: center;
-}
-
-.copy-right{
-  font-size: 15px;
-  color: white;
+.copy-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+    color: white;
+    width: 1026px;
+    height: 14vh;
 }
