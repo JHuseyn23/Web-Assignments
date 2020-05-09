@@ -1,0 +1,95 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --light-grey: #d8d9db;
+    --buttons-on-hover: #ebebeb;
+    --button-active-state: #bbbcbe;
+    --function-buttons: #df974c;
+    --function-buttons-on-hover: #dfb07e;
+    --function-button-active-state: #dd8d37;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 28px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-collapse: collapse;
+    width: 350px;
+    height: 570px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% / 7);
+    width: 100%;
+
+}
+
+.btn {
+    width: 25%;
+    padding: 24px;
+    font-size: 34px;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: #ebebeb;
+}
+
+.btn:active {
+    background-color: #bbbcbe;
+}
+
+.btn-func {
+    background-color: #df974c;
+    color: white;
+}
+
+.btn-func:hover {
+    background-color: #dfb07e;
+}
+
+.btn-func:active {
+    background-color: #dd8d37;
+}
+
+.screen {
+    height: calc(100% / 7);
+    width: 100%;
+    color: white;
+    background-color: black;
+  display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.clear {
+    width: 50%;
+}
+
+.zero {
+    width: 75%;
+}
+
+.double-zero {
+    width: 100%;
+}
